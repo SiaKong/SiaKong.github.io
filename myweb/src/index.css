@@ -8,3 +8,17 @@
         @apply cursor-pointer
     }
 }
+
+@font-face {
+    font-family: myfont;
+    src: url(coolvetica.otf);
+}
+
+h1{
+    font-family: myfont;
+}
+
+mark{
+    background-color: #005e6e;
+    color:white;
+}

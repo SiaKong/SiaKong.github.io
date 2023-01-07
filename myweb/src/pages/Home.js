@@ -21,18 +21,18 @@ function Home() {
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full items-center text-center">
         <FadeIn transitionDuration={1300}> 
           <>
-          <p className="text-5xl sm:text-[80px] font-bold text-[#00161a] pb-2">SIANA KONG</p>
-          <p className="text-sm sm:text-lg font-bold text-[#005e6e] pb-3">SOFTWARE DEVELOPER STUDENT</p>
-          <p className="text-sm sm:text-[15px]">Welcome to my portfolio website</p>
-          <p className="text-sm sm:text-[15px] pb-3">the next line</p>
-          <p className="text-sm sm:text-lg pb-2">Contact Me</p>
+          <h1 className="text-5xl sm:text-[90px] text-[#00161a] pb-3">SIANA KONG</h1>
+          <p className="text-sm sm:text-[20px] font-bold text-[#005e6e] pb-3"><mark>&nbsp;SOFTWARE DEVELOPER STUDENT&nbsp;</mark></p>
+          <p className="text-sm sm:text-lg">Welcome to my portfolio website</p>
+          <p className="text-sm sm:text-lg pb-6">the next line</p>
+          <p className="text-sm sm:text-[16px] pb-2 font-bold text-[#005e6e]">• CONTACT •</p>
           <FloatingButtons 
             buttonType='hori-dots'
             dimension={40}
             degree={180} 
             distance={100} 
             buttonsList={buttonsList} 
-            top={'calc(50% + 105px)'} 
+            top={'calc(50% + 120px)'} 
             left={"calc(50% - 22px)"}  
             direction="circular" />
             </>
