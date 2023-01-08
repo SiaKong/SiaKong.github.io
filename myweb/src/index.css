@@ -14,11 +14,11 @@
     src: url(coolvetica.otf);
 }
 
-h1{
+h2{
     font-family: myfont;
 }
 
 mark{
-    background-color: #005e6e;
-    color:white;
+    background-color: #00161a;
+    color:#acdfe8;
 }
