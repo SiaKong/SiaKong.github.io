@@ -20,5 +20,17 @@ h2{
 
 mark{
     background-color: #00161a;
-    color:#acdfe8;
+    color:#e9f9fc;
 }
+
+.react-tabs__tab:hover {
+    outline: none;
+    background: #acdfe8;
+    border-radius: 5px 5px 0 0;
+  }
+
+.react-tabs__tab--selected {
+    background: #00414d;
+    border-color: #aaa;
+    color: white;
+  }

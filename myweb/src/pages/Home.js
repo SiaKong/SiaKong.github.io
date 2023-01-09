@@ -23,7 +23,7 @@ function Home() {
           <>
             {/*Text Components*/}
             <h1 className="text-5xl sm:text-[90px] text-[#00414d] pb-3">SIANA KONG</h1>
-            <p className="text-sm sm:text-[20px] pb-10 text-[#808080]">&nbsp;SOFTWARE DEVELOPER STUDENT&nbsp;</p>
+            <p className="text-sm sm:text-[20px] pb-10 text-[#808080]">&nbsp;COMPUTER SCIENCE STUDENT&nbsp;</p>
             <p className="text-sm sm:text-[16px] pt-4 font-semibold text-[#007c91]">• CONTACT •</p>
             <>
 
