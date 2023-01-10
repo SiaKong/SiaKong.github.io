@@ -22,14 +22,14 @@ function About() {
         </div>
 
         {/*About Text*/}
-        <div className="box-border p-4 border-2 rounded-lg border-[#acdfe8] max-w-[450px] md:max-w-[700px]">
+        <div className="box-border p-4 border-2 rounded-lg border-[#acdfe8] max-w-[450px] md:max-w-[650px]">
           
-          <div className="w-full grid md:grid-cols-2 gap-5 pb-3 text-sm md:text-base">
+          <div className="w-full grid md:grid-cols-2 gap-1 pb-3 text-sm md:text-base">
             <div>
-              <p className="text-[#5ab4c4] px-2 pb-1"><p className='font-semibold text-white text-lg'>UNIVERSITY OF OTTAWA</p>| Honours B.Sc. in Computer Science</p>
+              <p className="text-[#5ab4c4] px-2"><p className='font-semibold text-white text-lg'>UNIVERSITY OF OTTAWA</p>| Honours B.Sc. in Computer Science</p>
               
             </div>
-            <div className="px-2">
+            <div className="px-2 pb-3">
                 <li className="text-white">Expected Graduation: April 2024</li>
                 <li className="text-white">GPA: 4.0/4.0</li>
               </div>

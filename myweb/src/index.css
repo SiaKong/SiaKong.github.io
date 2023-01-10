@@ -34,3 +34,26 @@ mark{
     border-color: #aaa;
     color: white;
   }
+
+.react-tabs__tab-list {
+    border-bottom: 1px solid #aaa;
+    margin: 0 0 10px;
+    padding: 0;
+    justify-content: center;
+    display: flex;
+    
+}
+
+.resumesub {
+    border-top: #00414d;
+    border-style:solid hidden hidden hidden;
+    border-width: 4px;
+}
+
+
+.workexp {
+    font-size: 14px;
+    margin-left: 10px;
+    list-style-type: circle;
+    padding-bottom: 10px;
+ }
