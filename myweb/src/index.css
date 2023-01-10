@@ -57,3 +57,36 @@ mark{
     list-style-type: circle;
     padding-bottom: 10px;
  }
+
+ .projectBox {
+    aspect-ratio: 1/ 1;
+    align-items: center;
+    padding: 5%;
+    color: #fff;
+    box-shadow: 0 4px 8px 0 rgb(56, 56, 56), 0 6px 20px 0 rgb(56, 56, 56);
+    max-width: 200px;
+ }
+
+ .projectBox.pbLight{
+    background-color: #acdfe8;
+    color:#00161a;
+ }
+
+ .projectBox.pbDark{
+    background-color: #1a6772;
+    color:white;
+ }
+
+ .projectBox:hover {
+    cursor: pointer;
+    box-shadow: 0 0 5px white;
+    transition-duration: 300ms;
+ }
+
+ .projectBox.pbLight:hover{
+    background-color: #84bec8;
+ }
+
+ .projectBox.pbDark:hover{
+    background-color: #00414d;
+ }

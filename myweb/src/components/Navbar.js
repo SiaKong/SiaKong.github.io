@@ -39,10 +39,10 @@ function Navbar() {
       <div className={!mobileNav ? 'hidden' : "m-auto absolute top-0 left-0 w-full h-screen bg-[#00161a] flex flex-col justify-center items-center"}>
         <ul>
           <li className='py-6 text-4xl'>
-            <Link to="home" spy={true} smooth={true} offset={-100} duration={500}> HOME </Link>
+            <Link to="home" spy={true} smooth={true} offset={0} duration={500}> HOME </Link>
           </li>
           <li className='py-6 text-4xl'>
-            <Link to="about" spy={true} smooth={true} offset={-100} duration={500}> ABOUT </Link>
+            <Link to="about" spy={true} smooth={true} offset={0} duration={500}> ABOUT </Link>
           </li>
           <li className='py-6 text-4xl'>
             <Link to="resume" spy={true} smooth={true} offset={-100} duration={500}> RESUME </Link>

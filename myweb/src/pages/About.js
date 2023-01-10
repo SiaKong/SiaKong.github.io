@@ -22,7 +22,7 @@ function About() {
         </div>
 
         {/*About Text*/}
-        <div className="box-border p-4 border-2 rounded-lg border-[#acdfe8] max-w-[450px] md:max-w-[650px]">
+        <div className="box-border p-4 border-2 rounded-lg border-[#acdfe8] max-w-[450px] md:max-w-[640px]">
           
           <div className="w-full grid md:grid-cols-2 gap-1 pb-3 text-sm md:text-base">
             <div>

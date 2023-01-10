@@ -22,8 +22,6 @@ import AndroidStudio from '../assets/androidstudio.png';
 import Git from '../assets/git.png';
 import Reactimg from '../assets/react.png';
 import Node from '../assets/node.png';
-import CSS from '../assets/css.svg';
-import HTML from '../assets/html.png';
 import Javascript from '../assets/javascript.png';
 import P5 from '../assets/p5.png';
 
@@ -48,98 +46,98 @@ function Resume() {
               <div className="grid grid-cols-4 md:grid-cols-5 gap-y-4 text-sm">
                 <div className="items-center text-center">
                   <img alt="Java" src={Java} className="mx-auto w-[65px] h-[65px]"/>
-                  <p>Java</p>
+                  <p className='pt-2'>Java</p>
                 </div>
                 <div className="items-center text-center">
                   <img alt="Python" src={Python} className="mx-auto w-[65px] h-[65px]"/>
-                  <p>Python</p>
+                  <p className='pt-2'>Python</p>
                 </div>
                 <div className="items-center text-center">
                   <img alt="GoLang" src={GoLang} className="mx-auto w-[65px] h-[65px]"/>
-                  <p>GoLang</p>
+                  <p className='pt-2'>GoLang</p>
                 </div>
                 <div className="items-center text-center">
                   <img alt="Ocaml" src={Ocaml} className="mx-auto w-[65px] h-[65px]"/>
-                  <p>Ocaml</p>
+                  <p className='pt-2'>Ocaml</p>
                 </div>
                 <div className="items-center text-center">
                   <img alt="Profile" src={Prolog} className="mx-auto w-[65px] h-[65px]"/>
-                  <p>Prolog</p>
+                  <p className='pt-2'>Prolog</p>
                 </div>
                 <div className="items-center text-center">
                   <img alt="Scheme" src={Scheme} className="mx-auto w-[65px] h-[65px]"/>
-                  <p>Scheme</p>
+                  <p> className='pt-2'Scheme</p>
                 </div>
                 
                 <div className="items-center text-center">
                   <img alt="Javascript" src={Javascript} className="mx-auto w-[65px] h-[65px]"/>
-                  <p>Javascript</p>
+                  <p className='pt-2'>Javascript</p>
                 </div>
                 <div className="items-center text-center">
                   <img alt="React" src={Reactimg} className="mx-auto w-[65px] h-[65px]"/>
-                  <p>React.js</p>
+                  <p className='pt-2'>React.js</p>
                 </div>
                 <div className="items-center text-center">
                   <img alt="Node.js" src={Node} className="mx-auto w-[65px] h-[65px]"/>
-                  <p>Node.js</p>
+                  <p className='pt-2'>Node.js</p>
                 </div>
                 <div className="items-center text-center">
                   <img alt="p5.js" src={P5} className="mx-auto w-[65px] h-[65px]"/>
-                  <p>p5.js</p>
+                  <p className='pt-2'>p5.js</p>
                 </div>
 
                 <div className="items-center text-center">
                   <img alt="Linux" src={Linux} className="mx-auto w-[65px] h-[65px]"/>
-                  <p>Linux</p>
+                  <p className='pt-2'>Linux</p>
                 </div>
                 <div className="items-center text-center">
                   <img alt="Git" src={Git} className="mx-auto w-[65px] h-[65px]"/>
-                  <p>Git</p>
+                  <p className='pt-2'>Git</p>
                 </div>
                 <div className="items-center text-center">
                   <img alt="Android studio" src={AndroidStudio} className="mx-auto w-[65px] h-[65px]"/>
-                  <p>Android Studio</p>
+                  <p className='pt-2'>Android Studio</p>
                 </div>
                 <div className="items-center text-center">
                   <img alt="Django" src={Django} className="mx-auto w-[65px] h-[65px]"/>
-                  <p>Django</p>
+                  <p className='pt-2'>Django</p>
                 </div>
                 <div className="items-center text-center">
                   <img alt="Flask" src={Flask} className="mx-auto w-[65px] h-[65px]"/>
-                  <p>Flask</p>
+                  <p className='pt-2'>Flask</p>
                 </div>
                 <div className="items-center text-center">
                   <img alt="Docker" src={Docker} className="mx-auto w-[65px] h-[65px]"/>
-                  <p>Docker</p>
+                  <p className='pt-2'>Docker</p>
                 </div>
                 <div className="items-center text-center">
                   <img alt="PowerBI" src={PowerBI} className="mx-auto w-[65px] h-[65px]"/>
-                  <p>PowerBI</p>
+                  <p className='pt-2'>PowerBI</p>
                 </div>
                 <div className="items-center text-center">
                   <img alt="Superset" src={Superset} className="mx-auto w-[65px] h-[65px]"/>
-                  <p>Apache Superset</p>
+                  <p className='pt-2'>Apache Superset</p>
                 </div>
 
                 <div className="items-center text-center">
                   <img alt="MSSQL" src={MSSQL} className="mx-auto w-[65px] h-[65px]"/>
-                  <p>MSSQL</p>
+                  <p className='pt-2'>MSSQL</p>
                 </div>
                 <div className="items-center text-center">
                   <img alt="MySQL" src={MySQL} className="mx-auto w-[65px] h-[65px]"/>
-                  <p>MySQL</p>
+                  <p className='pt-2'>MySQL</p>
                 </div>
                 <div className="items-center text-center">
                   <img alt="PostgreSQL" src={PostgreSQL} className="mx-auto w-[65px] h-[65px]"/>
-                  <p>PostgreSQL</p>
+                  <p className='pt-2'>PostgreSQL</p>
                 </div>
                 <div className="items-center text-center">
                   <img alt="Trino" src={Trino} className="mx-auto w-[65px] h-[65px]"/>
-                  <p>Trino</p>
+                  <p className='pt-2'>Trino</p>
                 </div>
                 <div className="items-center text-center">
                   <img alt="Firebase" src={Firebase} className="mx-auto w-[65px] h-[65px]"/>
-                  <p>Firebase</p>
+                  <p className='pt-2'>Firebase</p>
                 </div>
               </div>
               
@@ -148,31 +146,31 @@ function Resume() {
               <div className="grid grid-cols-4 md:grid-cols-5 gap-y-4 text-sm">
               <div className="items-center text-center">
                   <img alt="Java" src={Java} className="mx-auto w-[65px] h-[65px]"/>
-                  <p>Java</p>
+                  <p className='pt-2'>Java</p>
                 </div>
                 <div className="items-center text-center">
                   <img alt="Python" src={Python} className="mx-auto w-[65px] h-[65px]"/>
-                  <p>Python</p>
+                  <p className='pt-2'>Python</p>
                 </div>
                 <div className="items-center text-center">
                   <img alt="GoLang" src={GoLang} className="mx-auto w-[65px] h-[65px]"/>
-                  <p>GoLang</p>
+                  <p className='pt-2'>GoLang</p>
                 </div>
                 <div className="items-center text-center">
                   <img alt="Ocaml" src={Ocaml} className="mx-auto w-[65px] h-[65px]"/>
-                  <p>Ocaml</p>
+                  <p className='pt-2'>Ocaml</p>
                 </div>
                 <div className="items-center text-center">
                   <img alt="Profile" src={Prolog} className="mx-auto w-[65px] h-[65px]"/>
-                  <p>Prolog</p>
+                  <p className='pt-2'>Prolog</p>
                 </div>
                 <div className="items-center text-center">
                   <img alt="Scheme" src={Scheme} className="mx-auto w-[65px] h-[65px]"/>
-                  <p>Scheme</p>
+                  <p className='pt-2'>Scheme</p>
                 </div>
                 <div className="items-center text-center">
                   <img alt="Javascript" src={Javascript} className="mx-auto w-[65px] h-[65px]"/>
-                  <p>Javascript</p>
+                  <p className='pt-2'>Javascript</p>
                 </div>
                 <div className="items-center text-center">
                   <img alt="React" src={Reactimg} className="mx-auto w-[65px] h-[65px]"/>
@@ -180,11 +178,11 @@ function Resume() {
                 </div>
                 <div className="items-center text-center">
                   <img alt="Node.js" src={Node} className="mx-auto w-[65px] h-[65px]"/>
-                  <p>Node.js</p>
+                  <p className='pt-2'>Node.js</p>
                 </div>
                 <div className="items-center text-center">
                   <img alt="p5.js" src={P5} className="mx-auto w-[65px] h-[65px]"/>
-                  <p>p5.js</p>
+                  <p className='pt-2'>p5.js</p>
                 </div>
               </div>
             </TabPanel>
@@ -192,23 +190,23 @@ function Resume() {
               <div className="grid grid-cols-4 md:grid-cols-5 gap-y-4 text-sm">
               <div className="items-center text-center">
                   <img alt="MSSQL" src={MSSQL} className="mx-auto w-[65px] h-[65px]"/>
-                  <p>MSSQL</p>
+                  <p className='pt-2'>MSSQL</p>
                 </div>
                 <div className="items-center text-center">
                   <img alt="MySQL" src={MySQL} className="mx-auto w-[65px] h-[65px]"/>
-                  <p>MySQL</p>
+                  <p className='pt-2'>MySQL</p>
                 </div>
                 <div className="items-center text-center">
                   <img alt="PostgreSQL" src={PostgreSQL} className="mx-auto w-[65px] h-[65px]"/>
-                  <p>PostgreSQL</p>
+                  <p className='pt-2'>PostgreSQL</p>
                 </div>
                 <div className="items-center text-center">
                   <img alt="Trino" src={Trino} className="mx-auto w-[65px] h-[65px]"/>
-                  <p>Trino</p>
+                  <p className='pt-2'>Trino</p>
                 </div>
                 <div className="items-center text-center">
                   <img alt="Firebase" src={Firebase} className="mx-auto w-[65px] h-[65px]"/>
-                  <p>Firebase</p>
+                  <p className='pt-2'>Firebase</p>
                 </div>
               </div>
             </TabPanel>
@@ -216,35 +214,35 @@ function Resume() {
               <div className="grid grid-cols-4 md:grid-cols-5 gap-y-4 text-sm">
                 <div className="items-center text-center">
                   <img alt="Linux" src={Linux} className="mx-auto w-[65px] h-[65px]"/>
-                  <p>Linux</p>
+                  <p className='pt-2'>Linux</p>
                 </div>
                 <div className="items-center text-center">
                   <img alt="Git" src={Git} className="mx-auto w-[65px] h-[65px]"/>
-                  <p>Git</p>
+                  <p className='pt-2'>Git</p>
                 </div>
                 <div className="items-center text-center">
                   <img alt="Android studio" src={AndroidStudio} className="mx-auto w-[65px] h-[65px]"/>
-                  <p>Android Studio</p>
+                  <p className='pt-2'>Android Studio</p>
                 </div>
                 <div className="items-center text-center">
                   <img alt="Django" src={Django} className="mx-auto w-[65px] h-[65px]"/>
-                  <p>Django</p>
+                  <p className='pt-2'>Django</p>
                 </div>
                 <div className="items-center text-center">
                   <img alt="Flask" src={Flask} className="mx-auto w-[65px] h-[65px]"/>
-                  <p>Flask</p>
+                  <p className='pt-2'>Flask</p>
                 </div>
                 <div className="items-center text-center">
                   <img alt="Docker" src={Docker} className="mx-auto w-[65px] h-[65px]"/>
-                  <p>Docker</p>
+                  <p className='pt-2'>Docker</p>
                 </div>
                 <div className="items-center text-center">
                   <img alt="PowerBI" src={PowerBI} className="mx-auto w-[65px] h-[65px]"/>
-                  <p>PowerBI</p>
+                  <p className='pt-2'>PowerBI</p>
                 </div>
                 <div className="items-center text-center">
                   <img alt="Superset" src={Superset} className="mx-auto w-[65px] h-[65px]"/>
-                  <p>Apache Superset</p>
+                  <p className='pt-2'>Apache Superset</p>
                 </div>
               </div>
             </TabPanel>
@@ -275,7 +273,7 @@ function Resume() {
                 </div>
                 <div class="block p-6 rounded-lg shadow-lg bg-gray-100 max-w-xl ml-6 mb-10 hover:shadow-xl transition duration-300">
                   <div class="flex justify-between mb-4">
-                    <p class="font-medium text-[#216773] text-[15px]">Full Stack Developer</p>
+                    <p class="font-medium text-[#216773] text-lg">Full Stack Developer</p>
                     <p class="font-medium text-[#5ab4c4] text-sm">Jan 2022 - April 2022</p>
                   </div>
                   <div class="text-gray-700 text-sm">
@@ -299,7 +297,7 @@ function Resume() {
                 </div>
                 <div class="block p-6 rounded-lg shadow-lg bg-gray-100 max-w-xl ml-6 mb-10 hover:shadow-xl transition duration-300">
                   <div class="flex justify-between mb-4">
-                    <p class="font-medium text-[#216773] text-[15px]">Full Stack Developer</p>
+                    <p class="font-medium text-[#216773] text-lg">Full Stack Developer</p>
                     <p class="font-medium text-[#5ab4c4] text-sm">May 2021 - Aug 2021</p>
                   </div>
                   <div class="text-gray-700 text-sm">
@@ -333,7 +331,7 @@ function Resume() {
                   </div>
                   <div class="block p-6 rounded-lg shadow-lg bg-gray-100 max-w-xl ml-6 mb-10 hover:shadow-xl transition duration-300">
                     <div class="flex justify-between mb-4">
-                      <p class="font-medium text-[#216773] text-[15px]">Front-end Developer</p>
+                      <p class="font-medium text-[#216773] text-lg">Front-end Developer</p>
                       <p class="font-medium text-[#5ab4c4] text-sm">June 2020 - Aug 2020</p>
                     </div>
                     <div class="text-gray-700 text-sm">
@@ -354,9 +352,28 @@ function Resume() {
         {/*Activity*/}
         <p className="text-4xl text-[#00414d] pt-6 pb-2 resumesub">ACTIVITY</p>
         <p className="pb-8 text-gray-500">small text?</p>
-        <p>hackathone, cssa</p>
+        <p>hackathones & cssa</p>
+      
+        {/*Resume download button*/}
+        <div className="py-9"></div>
+        <a href="CV for Siana Kong.pdf" download>
+          <button type="button" class="px-6 pt-2.5 pb-2 bg-[#f8ef72] text-[#416b70] font-medium text-base leading-normal uppercase rounded shadow-md hover:bg-[#244246] hover:text-[#f8ef72] hover:shadow-lg focus:bg-[#244246] focus:shadow-lg focus:outline-none focus:ring-0 active:bg-[#244246] active:shadow-lg transition duration-150 ease-in-out flex align-center">
+        
+            <div className="flex items-stretch pb-1">
+            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="download" class="w-3 mr-2" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+            <path fill="currentColor"d="M216 0h80c13.3 0 24 10.7 24 24v168h87.7c17.8 0 26.7 21.5 14.1 34.1L269.7 378.3c-7.5 7.5-19.8 7.5-27.3 0L90.1 226.1c-12.6-12.6-3.7-34.1 14.1-34.1H192V24c0-13.3 10.7-24 24-24zm296 376v112c0 13.3-10.7 24-24 24H24c-13.3 0-24-10.7-24-24V376c0-13.3 10.7-24 24-24h146.7l49 49c20.1 20.1 52.5 20.1 72.6 0l49-49H488c13.3 0 24 10.7 24 24zm-124 88c0-11-9-20-20-20s-20 9-20 20 9 20 20 20 20-9 20-20zm64 0c0-11-9-20-20-20s-20 9-20 20 9 20 20 20 20-9 20-20z"></path>
+            </svg>
+            RESUME
+            </div>
+          </button>
+        </a>
+      
       </div>
+
+      <br/>
+      
     </div>
+    
   )
 }
 
