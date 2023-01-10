@@ -6,7 +6,7 @@ function About() {
   return (
     <div name='about' id='about' className='w-full h-screen bg-[#00161a]'>
       <div className="flex flex-col justify-center items-center w-full h-full">
-        <p className="text-4xl text-[#acdfe8] p-5">ABOUT ME</p>
+        <p className="text-4xl text-white p-5">ABOUT ME</p>
 
         {/*About Profile image*/}
         <div class="text-center pb-7">
@@ -16,7 +16,7 @@ function About() {
             alt="Profile"
           />
           <h5 class="text-xl font-medium leading-tight mb-2 text-[#5ab4c4]">SIANA KONG</h5>
-          <p class="text-[#bbc0c0] max-w-xs md:max-w-[400px] text-sm md:text-base">some introduction bout myself Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper, et elementum lorem ornare. Maecenas placerat facilisis mollis.</p>
+          <p class="text-[#bbc0c0] max-w-xs md:max-w-[500px] text-sm md:text-base italic">some introduction bout myself</p>
           
 
         </div>
@@ -26,16 +26,16 @@ function About() {
           
           <div className="w-full grid md:grid-cols-2 gap-5 pb-3 text-sm md:text-base">
             <div>
-              <p className="text-[#5ab4c4] px-2 pb-1"><p className='font-semibold text-[#acdfe8] text-lg'>UNIVERSITY OF OTTAWA</p>| Honours B.Sc. in Computer Science</p>
+              <p className="text-[#5ab4c4] px-2 pb-1"><p className='font-semibold text-white text-lg'>UNIVERSITY OF OTTAWA</p>| Honours B.Sc. in Computer Science</p>
               
             </div>
             <div className="px-2">
                 <li className="text-white">Expected Graduation: April 2024</li>
-                <li className="text-white">GPA: 3.9/4.0</li>
+                <li className="text-white">GPA: 4.0/4.0</li>
               </div>
             
           </div>
-          <p className="text-[#acdfe8] px-2 pb-1 font-semibold text-sm md:text-base">RELEVANT COURSES TAKEN / REGISTERED</p>
+          <p className="text-white px-2 pb-1 font-semibold text-sm md:text-base">RELEVANT COURSES TAKEN / REGISTERED</p>
           <p className="text-[#bbc0c0] px-4 text-xs">Computer architecture I, Discrete Structures, Data structures and algorithms, Programming paradigms, Database I, Professional Practice in Computing, Deisng analysis algorithms I, Programming language concepts, Deep learning, Information Security, Intro. to Formal languages, Operating systems, WWW Struc. Techn. & Standards, Fundamentals of Data Science</p>
           
         </div>
