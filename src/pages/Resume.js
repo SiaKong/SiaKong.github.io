@@ -24,15 +24,19 @@ import Reactimg from '../assets/react.png';
 import Node from '../assets/node.png';
 import Javascript from '../assets/javascript.png';
 import P5 from '../assets/p5.png';
+import ScrollAnimation from 'react-animate-on-scroll';
+import FadeIn from 'react-fade-in';
 
 function Resume() {
   return (
     <div name='resume' id='resume' className='w-full bg-white py-6'>
-      <div className="flex flex-col justify-center items-center w-full h-full">
+      <div className="flex flex-col justify-center items-center w-full h-full pt-3">
 
         {/*Technical skills*/}
-        <p className="text-4xl text-[#00414d] pt-6 pb-2">TECHNICAL SKILLS</p>
-        <p className="pb-6 text-gray-500">small text?</p>
+        <ScrollAnimation animateIn='animate__fadeIn' duration={2}>
+        <p className="text-4xl text-[#00414d] pt-10 pb-2">TECHNICAL SKILLS</p>
+        <p className="pb-6 text-gray-500 text-center">small text?</p>
+        </ScrollAnimation>
         <Tabs className="w-md md:w-[600px] items-center">
           <TabList>
             <Tab>ALL</Tab>
@@ -41,8 +45,9 @@ function Resume() {
             <Tab>SOFTWARE & TOOL</Tab>
           </TabList>
           <div className='pb-3'></div>
-          <div className="mx-auto flex flex-col justify-center w-full h-full">
+          <div className="mx-auto flex flex-col justify-center w-full h-[650px] md:h-[600px]">
             <TabPanel>
+              <FadeIn transitionDuration={700}>
               <div className="grid grid-cols-4 md:grid-cols-5 gap-y-4 text-sm">
                 <div className="items-center text-center">
                   <img alt="Java" src={Java} className="mx-auto w-[65px] h-[65px]"/>
@@ -140,9 +145,10 @@ function Resume() {
                   <p className='pt-2'>Firebase</p>
                 </div>
               </div>
-              
+              </FadeIn>
             </TabPanel>
             <TabPanel>
+              <FadeIn transitionDuration={700}>
               <div className="grid grid-cols-4 md:grid-cols-5 gap-y-4 text-sm">
               <div className="items-center text-center">
                   <img alt="Java" src={Java} className="mx-auto w-[65px] h-[65px]"/>
@@ -185,8 +191,10 @@ function Resume() {
                   <p className='pt-2'>p5.js</p>
                 </div>
               </div>
+              </FadeIn>
             </TabPanel>
             <TabPanel>
+              <FadeIn transitionDuration={700}>
               <div className="grid grid-cols-4 md:grid-cols-5 gap-y-4 text-sm">
               <div className="items-center text-center">
                   <img alt="MSSQL" src={MSSQL} className="mx-auto w-[65px] h-[65px]"/>
@@ -209,8 +217,10 @@ function Resume() {
                   <p className='pt-2'>Firebase</p>
                 </div>
               </div>
+              </FadeIn>
             </TabPanel>
             <TabPanel>
+              <FadeIn transitionDuration={700}>
               <div className="grid grid-cols-4 md:grid-cols-5 gap-y-4 text-sm">
                 <div className="items-center text-center">
                   <img alt="Linux" src={Linux} className="mx-auto w-[65px] h-[65px]"/>
@@ -245,18 +255,21 @@ function Resume() {
                   <p className='pt-2'>Apache Superset</p>
                 </div>
               </div>
+              </FadeIn>
             </TabPanel>
           </div>
         </Tabs>
         <br/>
         <br/>
         <br/>
-        
+        <br/>
         
 
         {/*Work experience*/}
-        <p className="text-4xl text-[#00414d] pt-6 pb-2 resumesub">WORK EXPERIENCES</p>
-        <p className="pb-8 text-gray-500">small text?</p>
+        <ScrollAnimation animateIn='animate__fadeIn' duration={1.5}>
+        <p className="text-4xl text-[#00414d] pb-2 resumesub">WORK EXPERIENCES</p>
+        <p className="pb-8 text-gray-500 text-center">small text?</p>
+        </ScrollAnimation>
         <div className="grid md:grid-cols-2 gap-5 pb-3 max-w-[450px] md:max-w-[800px] lg:mr-[120px]">
           <div className="md:col-start-1 md:col-end-3 text-sm md:text-base text-left md:text-right">
             <p className='text-2xl font-semibold'>Nokia</p>
@@ -271,6 +284,7 @@ function Resume() {
                     <path fill="currentColor" d="M0 464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V192H0v272zm64-192c0-8.8 7.2-16 16-16h288c8.8 0 16 7.2 16 16v64c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16v-64zM400 64h-48V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H160V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H48C21.5 64 0 85.5 0 112v48h448v-48c0-26.5-21.5-48-48-48z"></path>
                   </svg>
                 </div>
+                <ScrollAnimation animateIn='animate__slideInLeft' offset={200}>
                 <div class="block p-6 rounded-lg shadow-lg bg-gray-100 max-w-xl ml-6 mb-10 hover:shadow-xl transition duration-300">
                   <div class="flex justify-between mb-4">
                     <p class="font-medium text-[#216773] text-lg">Full Stack Developer</p>
@@ -285,6 +299,7 @@ function Resume() {
                     </ul>
                   </div>
                 </div>
+                </ScrollAnimation>
               </div>
             </li>
 
@@ -295,9 +310,10 @@ function Resume() {
                     <path fill="currentColor" d="M0 464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V192H0v272zm64-192c0-8.8 7.2-16 16-16h288c8.8 0 16 7.2 16 16v64c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16v-64zM400 64h-48V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H160V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H48C21.5 64 0 85.5 0 112v48h448v-48c0-26.5-21.5-48-48-48z"></path>
                   </svg>
                 </div>
+                <ScrollAnimation animateIn='animate__slideInLeft' offset={150}>
                 <div class="block p-6 rounded-lg shadow-lg bg-gray-100 max-w-xl ml-6 mb-10 hover:shadow-xl transition duration-300">
                   <div class="flex justify-between mb-4">
-                    <p class="font-medium text-[#216773] text-lg">Full Stack Developer</p>
+                    <p class="font-medium text-[#216773] text-lg">Software Developer</p>
                     <p class="font-medium text-[#5ab4c4] text-sm">May 2021 - Aug 2021</p>
                   </div>
                   <div class="text-gray-700 text-sm">
@@ -310,6 +326,7 @@ function Resume() {
                     </ul>
                   </div>
                 </div>
+                </ScrollAnimation>
               </div>
             </li>
             
@@ -329,6 +346,7 @@ function Resume() {
                       <path fill="currentColor" d="M0 464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V192H0v272zm64-192c0-8.8 7.2-16 16-16h288c8.8 0 16 7.2 16 16v64c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16v-64zM400 64h-48V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H160V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H48C21.5 64 0 85.5 0 112v48h448v-48c0-26.5-21.5-48-48-48z"></path>
                     </svg>
                   </div>
+                  <ScrollAnimation animateIn='animate__slideInLeft' offset={200}>
                   <div class="block p-6 rounded-lg shadow-lg bg-gray-100 max-w-xl ml-6 mb-10 hover:shadow-xl transition duration-300">
                     <div class="flex justify-between mb-4">
                       <p class="font-medium text-[#216773] text-lg">Front-end Developer</p>
@@ -341,6 +359,7 @@ function Resume() {
                       </ul>
                     </div>
                   </div>
+                  </ScrollAnimation>
                 </div>
               </li>
             </ol>
@@ -348,12 +367,18 @@ function Resume() {
         </div>
         <br/>
         <br/>
+        <br/>
+        <br/>
 
         {/*Activity*/}
+        <ScrollAnimation animateIn='animate__fadeIn' duration={1.5}>
         <p className="text-4xl text-[#00414d] pt-6 pb-2 resumesub">ACTIVITY</p>
-        <p className="pb-8 text-gray-500">small text?</p>
+        <p className="pb-8 text-gray-500 text-center">small text?</p>
+        </ScrollAnimation>
+
         <p>hackathones & cssa</p>
       
+        <br/>
         {/*Resume download button*/}
         <div className="py-9"></div>
         <a href="CV for Siana Kong.pdf" download>
@@ -370,6 +395,7 @@ function Resume() {
       
       </div>
 
+      <br/>
       <br/>
       
     </div>

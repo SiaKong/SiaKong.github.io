@@ -6,6 +6,7 @@ import About from './pages/About'
 import Resume from './pages/Resume'
 import Projects from './pages/Projects'
 import styles from "./index.css"
+import "animate.css/animate.min.css";
 
 
 function App() {

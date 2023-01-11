@@ -1,29 +1,32 @@
 import React from 'react'
 import FadeIn from 'react-fade-in';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 function About() {
 
   return (
     <div name='about' id='about' className='w-full h-screen bg-[#00161a]'>
       <div className="flex flex-col justify-center items-center w-full h-full">
-        <p className="text-4xl text-white p-5">ABOUT ME</p>
+      <ScrollAnimation animateIn='animate__fadeIn' duration={2}>
 
-        {/*About Profile image*/}
-        <div class="text-center pb-7">
-          <img
-            src="pfp.jpg"
-            className="rounded-full w-44 mb-4 mx-auto"
-            alt="Profile"
-          />
-          <h5 class="text-xl font-medium leading-tight mb-2 text-[#5ab4c4]">SIANA KONG</h5>
-          <p class="text-[#bbc0c0] max-w-xs md:max-w-[500px] text-sm md:text-base italic">some introduction bout myself</p>
-          
+          <p className="text-4xl text-white p-6 text-center flex flex-col ">ABOUT ME</p>
 
-        </div>
+          {/*About Profile image*/}
+          <div class="text-center pb-7">
+            <img
+              src="pfp.jpg"
+              className="rounded-full w-44 mb-4 mx-auto"
+              alt="Profile"
+            />
+            <h5 class="text-xl font-medium leading-tight mb-2 text-[#5ab4c4]">SIANA KONG</h5>
+            <p class="text-[#bbc0c0] text-sm md:text-base italic">adf</p>
+          </div>
+
+        
 
         {/*About Text*/}
         <div className="box-border p-4 border-2 rounded-lg border-[#acdfe8] max-w-[450px] md:max-w-[640px]">
-          
+    
           <div className="w-full grid md:grid-cols-2 gap-1 pb-3 text-sm md:text-base">
             <div>
               <p className="text-[#5ab4c4] px-2"><p className='font-semibold text-white text-lg'>UNIVERSITY OF OTTAWA</p>| Honours B.Sc. in Computer Science</p>
@@ -42,6 +45,7 @@ function About() {
         
         {/*Unofficial transcript download button*/}
         <div className="pb-9"></div>
+        <div className='item-center justify-center flex'>
         <a href="unofficial_transcript.pdf" download>
           <button type="button" class="px-6 pt-2.5 pb-2 bg-[#f8ef72] text-[#416b70] font-medium text-xs leading-normal uppercase rounded shadow-md hover:bg-[#244246] hover:text-[#f8ef72] hover:shadow-lg focus:bg-[#244246] focus:shadow-lg focus:outline-none focus:ring-0 active:bg-[#244246] active:shadow-lg transition duration-150 ease-in-out flex align-center">
         
@@ -53,7 +57,8 @@ function About() {
             </div>
           </button>
         </a>
-        
+        </div>
+        </ScrollAnimation>
       </div>
     </div>
   )

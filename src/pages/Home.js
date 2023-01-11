@@ -6,6 +6,7 @@ import linkedin from '../assets/linkedin.svg'
 import github from '../assets/github.svg'
 import gmail from '../assets/gmail.svg'
 import discord from '../assets/discord.svg'
+import ScrollAnimation from 'react-animate-on-scroll';
 
 function Home() {
   const buttonsList = [
@@ -19,8 +20,8 @@ function Home() {
   return (
     <div name='home' id='home' className="w-full h-screen">
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full items-center text-center">
-        <FadeIn transitionDuration={1300}> 
           <>
+          <ScrollAnimation animateIn="animate__fadeInDown"> 
             {/*Text Components*/}
             <h1 className="text-5xl sm:text-[90px] text-[#00414d] pb-3">SIANA KONG</h1>
             <p className="text-sm sm:text-[20px] pb-10 text-[#808080]">&nbsp;COMPUTER SCIENCE STUDENT&nbsp;</p>
@@ -38,8 +39,9 @@ function Home() {
               left={"calc(50% - 22px)"}  
               direction="circular" />
             </>
+            </ScrollAnimation>
           </>
-        </FadeIn>
+        
       </div>
     </div>
   );
