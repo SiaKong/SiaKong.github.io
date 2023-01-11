@@ -6,17 +6,23 @@ const Proj2 = ({ set2On }) => {
 
     return (
 
-        <div className="   bg-zinc-200 opacity-80 fixed inset-0 z-50   ">
-
-            <div className="flex h-screen justify-center items-center ">
-
-                <div className="flex-col justify-center  bg-white py-12 px-24 border-4 border-sky-500 rounded-xl ">
-
-                    <div className="flex  text-lg  text-zinc-600   mb-10" >2</div>
-                    <div className="flex">
-                        <button onClick={handleCancelClick} className="rounded px-4 py-2 ml-4 text-white bg-blue-500 ">No</button>
+        <div className="bg-zinc-200 bg-opacity-70 fixed inset-0 z-50 transition duration-75">
+            <div className="flex flex-col h-screen justify-center items-center ">
+                <div class="rounded-lg shadow-lg bg-white max-w-sm">
+                    <a href="#!">
+                    <img class="rounded-t-lg" src="proj2big.jpg" alt=""/>
+                    </a>
+                    <div class="p-6">
+                    <div className="grid md:grid-cols-2 gap-10 pb-3">
+                        <h5 class="text-gray-900 text-xl font-semibold mb-2 col-start-1 col-end-7">Portfolio Page</h5>
+                        <button onClick={handleCancelClick} className="col-end-8 rounded max-w-[80px] max-h-[30px] mr-3 px-4 text-white bg-[#416b70]">Close</button>
                     </div>
-
+                    <p class="text-gray-700 text-base mb-4">
+                        Some quick example text to build on the card title and make up the bulk of the card's
+                        content.
+                    </p>
+                    <a href="https://github.com/SiaKong/SiaKong.github.io">Link to Github</a>
+                    </div>
                 </div>
             </div>
         </div>

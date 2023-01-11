@@ -38,6 +38,7 @@ function Home() {
               top={'calc(50% + 120px)'} 
               left={"calc(50% - 22px)"}  
               direction="circular" />
+
             </>
             </ScrollAnimation>
           </>

@@ -34,8 +34,8 @@ function Resume() {
 
         {/*Technical skills*/}
         <ScrollAnimation animateIn='animate__fadeIn' duration={2}>
-        <p className="text-4xl text-[#00414d] pt-10 pb-2">TECHNICAL SKILLS</p>
-        <p className="pb-6 text-gray-500 text-center">small text?</p>
+        <p className="text-4xl text-[#00414d] pt-7 pb-2 text-center">TECHNICAL SKILLS</p>
+        <p className="pb-6 text-gray-500 text-center">Skills acquired through projects & experiences</p>
         </ScrollAnimation>
         <Tabs className="w-md md:w-[600px] items-center">
           <TabList>
@@ -45,10 +45,10 @@ function Resume() {
             <Tab>SOFTWARE & TOOL</Tab>
           </TabList>
           <div className='pb-3'></div>
-          <div className="mx-auto flex flex-col justify-center w-full h-[650px] md:h-[600px]">
+          <div className="mx-auto flex flex-col justify-center w-full">
             <TabPanel>
               <FadeIn transitionDuration={700}>
-              <div className="grid grid-cols-4 md:grid-cols-5 gap-y-4 text-sm">
+              <div className="grid grid-cols-4 md:grid-cols-5 gap-y-3 text-sm  h-[650px] md:h-[550px]">
                 <div className="items-center text-center">
                   <img alt="Java" src={Java} className="mx-auto w-[65px] h-[65px]"/>
                   <p className='pt-2'>Java</p>
@@ -149,7 +149,7 @@ function Resume() {
             </TabPanel>
             <TabPanel>
               <FadeIn transitionDuration={700}>
-              <div className="grid grid-cols-4 md:grid-cols-5 gap-y-4 text-sm">
+              <div className="grid grid-cols-4 md:grid-cols-4 gap-y-4 text-sm h-[650px] md:h-[300px]">
               <div className="items-center text-center">
                   <img alt="Java" src={Java} className="mx-auto w-[65px] h-[65px]"/>
                   <p className='pt-2'>Java</p>
@@ -195,7 +195,7 @@ function Resume() {
             </TabPanel>
             <TabPanel>
               <FadeIn transitionDuration={700}>
-              <div className="grid grid-cols-4 md:grid-cols-5 gap-y-4 text-sm">
+              <div className="grid grid-cols-4 md:grid-cols-5 gap-y-4 text-sm h-[650px] md:h-[300px]">
               <div className="items-center text-center">
                   <img alt="MSSQL" src={MSSQL} className="mx-auto w-[65px] h-[65px]"/>
                   <p className='pt-2'>MSSQL</p>
@@ -221,7 +221,7 @@ function Resume() {
             </TabPanel>
             <TabPanel>
               <FadeIn transitionDuration={700}>
-              <div className="grid grid-cols-4 md:grid-cols-5 gap-y-4 text-sm">
+              <div className="grid grid-cols-4 md:grid-cols-5 gap-y-4 text-sm h-[650px] md:h-[300px]">
                 <div className="items-center text-center">
                   <img alt="Linux" src={Linux} className="mx-auto w-[65px] h-[65px]"/>
                   <p className='pt-2'>Linux</p>
@@ -272,8 +272,10 @@ function Resume() {
         </ScrollAnimation>
         <div className="grid md:grid-cols-2 gap-5 pb-3 max-w-[450px] md:max-w-[800px] lg:mr-[120px]">
           <div className="md:col-start-1 md:col-end-3 text-sm md:text-base text-left md:text-right">
-            <p className='text-2xl font-semibold'>Nokia</p>
-            <p className='text-gray-500'>Kanata, Ontario</p>
+            <ScrollAnimation animateIn='animate__fadeIn' duration={4}>
+              <p className='text-2xl font-semibold'>Nokia</p>
+              <p className='text-gray-500'>Kanata, Ontario</p>
+            </ScrollAnimation>
           </div>
           <div className="md:col-start-4">
           <ol class="border-l-2 border-[#89cbd6]">
@@ -334,8 +336,10 @@ function Resume() {
           </div>
 
           <div className="md:col-start-1 md:col-end-3 text-left md:text-right">
-            <p className='text-2xl font-semibold'>University of Ottawa</p>
-            <p className='text-gray-500'>Ottawa, Ontario</p>
+            <ScrollAnimation animateIn='animate__fadeIn' duration={4}>
+              <p className='text-2xl font-semibold'>University of Ottawa</p>
+              <p className='text-gray-500'>Ottawa, Ontario</p>
+            </ScrollAnimation>
           </div>
           <div className="md:col-start-4">
             <ol class="border-l-2 border-[#89cbd6]">
