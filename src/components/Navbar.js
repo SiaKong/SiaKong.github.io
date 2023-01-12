@@ -10,22 +10,22 @@ function Navbar() {
   const clickMenu = () => setMobileNav(!mobileNav);
 
   return (
-    <div className='fixed w-full h-[60px] flex justify-between items-center px-4 bg-[#00161a] text-gray-300'>
+    <div className='fixed z-50 w-full h-[60px] flex justify-between items-center px-4 bg-[#00161a] text-gray-300'>
     
       {/*Menu List*/}
-      <div className="flex m-auto">
+      <div className="flex m-auto z-50">
         <ul className="flex">
             <li className='navItem'>
-              <Link to="home" spy={true} smooth={true} duration={500}> HOME </Link>
+              <Link to="home" spy={true} smooth={true} duration={600}> HOME </Link>
             </li>
             <li className='navItem'>
-              <Link to="about" spy={true} smooth={true} duration={500}> ABOUT </Link>
+              <Link to="about" spy={true} smooth={true} duration={600}> ABOUT </Link>
             </li>
             <li className='navItem'>
-              <Link to="resume" spy={true} smooth={true} offset={-40} duration={500}> RESUME </Link>
+              <Link to="resume" spy={true} smooth={true} offset={-40} duration={600}> RESUME </Link>
             </li>
             <li className='navItem'>
-              <Link to="projects" spy={true} smooth={true} duration={500}> PROJECTS </Link>
+              <Link to="projects" spy={true} smooth={true} duration={600}> PROJECTS </Link>
             </li>
         </ul>
       </div>

@@ -149,7 +149,7 @@ function Resume() {
             </TabPanel>
             <TabPanel>
               <FadeIn transitionDuration={700}>
-              <div className="grid grid-cols-4 md:grid-cols-4 gap-y-4 text-sm h-[650px] md:h-[300px]">
+              <div className="grid grid-cols-4 md:grid-cols-4 gap-y-4 text-sm h-[300px] md:h-[300px]">
               <div className="items-center text-center">
                   <img alt="Java" src={Java} className="mx-auto w-[65px] h-[65px]"/>
                   <p className='pt-2'>Java</p>
@@ -195,7 +195,7 @@ function Resume() {
             </TabPanel>
             <TabPanel>
               <FadeIn transitionDuration={700}>
-              <div className="grid grid-cols-4 md:grid-cols-5 gap-y-4 text-sm h-[650px] md:h-[300px]">
+              <div className="grid grid-cols-4 md:grid-cols-5 gap-y-4 text-sm h-[300px] md:h-[300px]">
               <div className="items-center text-center">
                   <img alt="MSSQL" src={MSSQL} className="mx-auto w-[65px] h-[65px]"/>
                   <p className='pt-2'>MSSQL</p>
@@ -221,7 +221,7 @@ function Resume() {
             </TabPanel>
             <TabPanel>
               <FadeIn transitionDuration={700}>
-              <div className="grid grid-cols-4 md:grid-cols-5 gap-y-4 text-sm h-[650px] md:h-[300px]">
+              <div className="grid grid-cols-4 md:grid-cols-5 gap-y-4 text-sm h-[300px] md:h-[300px]">
                 <div className="items-center text-center">
                   <img alt="Linux" src={Linux} className="mx-auto w-[65px] h-[65px]"/>
                   <p className='pt-2'>Linux</p>
@@ -264,12 +264,13 @@ function Resume() {
         <br/>
         <br/>
         
-
+        
         {/*Work experience*/}
         <ScrollAnimation animateIn='animate__fadeIn' duration={1.5}>
-        <p className="text-4xl text-[#00414d] pb-2 resumesub">WORK EXPERIENCES</p>
-        <p className="pb-8 text-gray-500 text-center">small text?</p>
+        <p className="text-4xl text-[#00414d] pb-2 pt-6 resumesub text-center">WORK EXPERIENCES</p>
+        <p className="pb-8 text-gray-500 text-center">Past co-op / internship experience</p>
         </ScrollAnimation>
+        <div className='px-3'>
         <div className="grid md:grid-cols-2 gap-5 pb-3 max-w-[450px] md:max-w-[800px] lg:mr-[120px]">
           <div className="md:col-start-1 md:col-end-3 text-sm md:text-base text-left md:text-right">
             <ScrollAnimation animateIn='animate__fadeIn' duration={4}>
@@ -363,10 +364,12 @@ function Resume() {
                       </ul>
                     </div>
                   </div>
+                  
                   </ScrollAnimation>
                 </div>
               </li>
             </ol>
+          </div>
           </div>
         </div>
         <br/>
@@ -376,11 +379,11 @@ function Resume() {
 
         {/*Activity*/}
         <ScrollAnimation animateIn='animate__fadeIn' duration={1.5}>
-        <p className="text-4xl text-[#00414d] pt-6 pb-2 resumesub">ACTIVITY</p>
-        <p className="pb-8 text-gray-500 text-center">small text?</p>
+        <p className="text-4xl text-[#00414d] pt-6 pb-2 resumesub text-center">ACTIVITY</p>
+        <p className="pb-8 text-gray-500 text-center">Extra curricular activities</p>
         </ScrollAnimation>
 
-        <p>hackathones & cssa</p>
+        
       
         <br/>
         {/*Resume download button*/}

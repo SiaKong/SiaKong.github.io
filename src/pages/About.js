@@ -19,7 +19,7 @@ function About() {
               alt="Profile"
             />
             <h5 class="text-xl font-medium leading-tight mb-2 text-[#5ab4c4]">SIANA KONG</h5>
-            <p class="text-[#bbc0c0] text-sm md:text-base italic">adf</p>
+            <p class="text-[#bbc0c0] text-sm md:text-base italic">Hard working / Dedicated / Innovative</p>
           </div>
 
         

@@ -30,7 +30,7 @@ function Projects() {
         <p className="pb-8 text-gray-400 text-center">Check out my work</p>
         </ScrollAnimation>
 
-        <div class="modal-content pt-4">
+        <div class="modal-content pt-4 px-3">
           <div className="w-full grid grid-cols-3 gap-7 pb-3">
             <ScrollAnimation animateIn='animate__slideInLeft'>
               <div className='projectBox' onClick={clicked1}>
