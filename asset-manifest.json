@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.110be3ae.css",
+    "main.js": "/static/js/main.c2c90fb7.js",
+    "static/media/linux.png": "/static/media/linux.421fb9f92e6292220e67.png",
+    "static/media/androidstudio.png": "/static/media/androidstudio.90500a376fc814a3b0d7.png",
+    "static/media/postgresql.png": "/static/media/postgresql.5a13e254fb0c5ae14652.png",
+    "static/media/react.png": "/static/media/react.8a6fc0a24a800d1e0f4a.png",
+    "static/media/python.png": "/static/media/python.82efb64f8698a267f8bf.png",
+    "static/media/firebase.png": "/static/media/firebase.f446f76be8a96ed13f69.png",
+    "static/media/flask.png": "/static/media/flask.dd8d5a93ab1ebdba9361.png",
+    "static/media/coolvetica.otf": "/static/media/coolvetica.3d81d0e1fdbd5f69b232.otf",
+    "static/media/mssql.png": "/static/media/mssql.94674328eeb1f81a8c91.png",
+    "static/media/prolog.png": "/static/media/prolog.7bd06cbfe05bc7a042d7.png",
+    "static/media/mysql.png": "/static/media/mysql.7d8d571e5629923eaf74.png",
+    "static/media/superset.png": "/static/media/superset.725bddb4158a7a4d84c8.png",
+    "static/media/docker.png": "/static/media/docker.d208be815be3e2453832.png",
+    "static/media/golang.svg": "/static/media/golang.6316b9da38310f48aed1fc9ce9c91bf5.svg",
+    "static/media/java.png": "/static/media/java.6c64373d3b7415758078.png",
+    "static/media/discord.svg": "/static/media/discord.c94e8c2e9b1457328ae49f3e0b169146.svg",
+    "static/media/instagram.svg": "/static/media/instagram.02967a62beee6b2a4d092b3c532b3358.svg",
+    "static/media/scheme.svg": "/static/media/scheme.826e8e4e963f4ad80f87eda9587507f1.svg",
+    "static/media/gmail.svg": "/static/media/gmail.2c70fa80e7595c831171e23d3d580539.svg",
+    "static/media/github.svg": "/static/media/github.fa0212feed6209411b9a404032ec7e8f.svg",
+    "static/media/django.svg": "/static/media/django.0779fca292c0a723b464bcb7534f802c.svg",
+    "index.html": "/index.html",
+    "static/media/linkedin.svg": "/static/media/linkedin.a4464e908a89da7a3ef4b7349b7ec123.svg",
+    "main.110be3ae.css.map": "/static/css/main.110be3ae.css.map",
+    "main.c2c90fb7.js.map": "/static/js/main.c2c90fb7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.110be3ae.css",
+    "static/js/main.c2c90fb7.js"
+  ]
+}
