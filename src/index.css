@@ -69,26 +69,42 @@ mark{
     max-width: 200px;
     text-align: center;
     position: relative;
-    opacity: 0.7;
-    transition: opacity 0.4s, transform 0.4s;
  }
 
  .projectBox img {
     flex-shrink: 0;
     min-width: 100%;
     min-height: 100%;
+    
 }
 
 .text-block {
     position: absolute;
-    color: white;
     padding-left: 20px;
     padding-right: 20px;
-  }
- .projectBox:hover {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.8;
+    transition: opacity 0.4s, transform 0.4s;
+    background-color: #00161a;
+}
+
+.text-block:hover {
+    position: absolute;
+    transition-duration: 300ms;
+    color: transparent;
+    padding-left: 20px;
+    padding-right: 20px;
+    opacity: 0.2;
+}
+
+.projectBox:hover {
     cursor: pointer;
     box-shadow: 0 0 5px white;
     transition-duration: 300ms;
     transform: scale(1.03);
-    opacity: 1;
  }

@@ -382,7 +382,23 @@ function Resume() {
         <p className="text-4xl text-[#00414d] pt-6 pb-2 resumesub text-center">ACTIVITY</p>
         <p className="pb-8 text-gray-500 text-center">Extra curricular activities</p>
         </ScrollAnimation>
-
+        <ScrollAnimation animateIn='animate__pulse'>
+          <div className='px-6'>
+          <div className='block p-6 rounded-lg shadow-lg bg-gray-100 max-w-md md:max-w-lg'>
+            <h className='font-medium text-[#216773] text-lg'>Computer Science Student Assocation</h>
+            <p className='text-sm text-gray-500 dark:text-gray-400 '>@ University of Ottawa</p>
+            <div class="flex items-center space-x-4 py-3">
+                <img class="w-10 h-10 rounded-full" src="pfp.jpg" alt=""/>
+                <div class="font-medium dark:text-white">
+                    <div className='text-gray-800'>Vice President Equity</div>
+                    <div class="font-medium text-[#5ab4c4] text-sm">May 2020 - April 2021</div>
+                </div>
+            </div>
+            <li className='workexp'>Organized and promoted events regarding social issues, such as BLM and mental health awareness.</li>
+            <li className='workexp'>Planned academic and social events for all students in Computer Science and the Faculty of Engineering.</li>
+          </div>
+          </div>
+        </ScrollAnimation>
         
       
         <br/>

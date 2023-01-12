@@ -34,37 +34,37 @@ function Projects() {
           <div className="w-full grid grid-cols-3 gap-7 pb-3">
             <ScrollAnimation animateIn='animate__slideInLeft'>
               <div className='projectBox' onClick={clicked1}>
-                  <img src="proj1.jpg" alt="Profile"/>
-                  <div className='text-block'><h className="text-3xl text-black">VLU</h></div>
+                  <img src="proj1.jpg" alt="VLU"/>
+                  <div className='text-block'><h className="text-3xl">VLU</h></div>
               </div>
             </ScrollAnimation>
             <ScrollAnimation animateIn='animate__slideInLeft'>
               <div className='projectBox' onClick={clicked2}>
-                  <img src="proj2.jpg" alt="Profile"/>
+                  <img src="proj2.jpg" alt="Portfolio Page"/>
                   <div className='text-block'><h className="text-3xl">Portfolio Page</h></div>
               </div>
             </ScrollAnimation>
             <ScrollAnimation animateIn='animate__slideInLeft'>
               <div className='projectBox' onClick={clicked3}>
-                  <img src="pfp.jpg" alt="Profile"/>
+                  <img src="proj3big.jpg" alt="Hotel Lookup"/>
                   <div className='text-block'><h className="text-3xl">Hotel Lookup</h></div>
               </div>
             </ScrollAnimation>
             <ScrollAnimation animateIn='animate__slideInRight'>
               <div className='projectBox' onClick={clicked4}>
-                  <img src="Proj4.jpg" alt="Profile"/>
+                  <img src="Proj4.jpg" alt="Service Novigrad"/>
                   <div className='text-block'><h className="text-3xl">Service Novigrad</h></div>
               </div>
             </ScrollAnimation>
             <ScrollAnimation animateIn='animate__slideInRight'>
               <div className='projectBox' onClick={clicked5}>
-                  <img src="pfp.jpg" alt="Profile"/>
+                  <img src="proj5.jpg" alt="Sketch Pad"/>
                   <div className='text-block'><h className="text-3xl">Sketch Pad</h></div>
               </div>
             </ScrollAnimation>
             <ScrollAnimation animateIn='animate__slideInRight'>
               <div className='projectBox' onClick={clicked6}>
-                  <img src="proj6.jpg" alt="Profile"/>
+                  <div className='imageBox'><img src="proj6.jpg" alt="FoodTalk"/></div>
                   <div className='text-block'><h className="text-3xl">FoodTalk</h></div>
               </div>
             </ScrollAnimation>

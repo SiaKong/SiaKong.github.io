@@ -15,7 +15,7 @@ function About() {
           <div class="text-center pb-7">
             <img
               src="pfp.jpg"
-              className="rounded-full w-44 mb-4 mx-auto"
+              className="rounded-full w-[120px] md:w-44 mb-4 mx-auto"
               alt="Profile"
             />
             <h5 class="text-xl font-medium leading-tight mb-2 text-[#5ab4c4]">SIANA KONG</h5>
