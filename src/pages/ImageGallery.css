@@ -1,0 +1,95 @@
+.image-gallery-container {
+    display: flex;
+    justify-content: column;
+    align-items: center;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px; /* Adjust the width as needed */
+    margin: 0 auto;
+    grid-auto-flow: column;
+    grid-gap: 1%; /* Adjust the gap between images as needed */
+    overflow: hidden;
+    scroll-snap-type: x mandatory;
+    height: auto;
+    padding-left: calc((100% - (600px + 1% * 2)) / 2); /* Adjust the image width and gap as needed */
+    padding-right: calc((100% - (600px + 1% * 2)) / 2); /* Adjust the image width and gap as needed */
+  }
+  
+  .image-card {
+    position: relative;
+    overflow: visible;
+    width: 400px;
+    height: 320px;
+    scroll-snap-align: start;
+    filter: brightness(60%);
+    transition: filter 0.3s, width 0.5s, transform 0.3s, box-shadow 0.3s;;
+  }
+  
+
+  .image-card:hover {
+    cursor: pointer;
+    filter: brightness(90%);
+    transform: scale(1.05) translateY(-5px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .image-card.focused {
+    z-index: 1;
+    filter: brightness(105%);
+    width: 800px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  
+  .image-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .projtext-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .projtext {
+    width: 500px;
+    /* Additional styles to position the div beneath the image gallery */
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    @media (max-width: 500px) {
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 380px;
+      }
+  }
+
+  #projLink{
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+
+  #projLink:hover{
+    animation: none;
+  }
+
+  #projLink:hover h2{
+    color: #d7a1fa;
+    animation: none;
+  }
+
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 5px #fff;
+    }
+    to {
+      text-shadow:  0 0 10px #530785, 0 0 10px #cf52c5;
+    }
+  }
